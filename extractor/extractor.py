@@ -14,6 +14,7 @@ HTML_DIRECTORIES = {
   'EBAY': './data/ebay.html',
   'ALIBABA': './data/alibaba.html',
   'FASTSHOP': './data/fastshop.html',
+  'WEBFONE': './data/webfone.html',
 }
 
 DESIRED_KEYS = []
@@ -29,7 +30,7 @@ def get_html(directory):
   return html
 
 load_keys()
-html = get_html(HTML_DIRECTORIES['AMERICANAS'])
+html = get_html(HTML_DIRECTORIES['WEBFONE'])
 
 extracted_data = {}
 for desired_key in DESIRED_KEYS:
