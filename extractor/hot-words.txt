@@ -1,0 +1,92 @@
+Model:
+Features:
+RAM:
+Chipset Model:
+Camera Resolution:
+Storage Capacity:
+Processor:
+Color:
+Connectivity:
+Marca:
+Tela:
+Câmera Frontal:
+Definição da tela:
+Mostrador:
+Número do Modelo:
+Screen Size:
+Type:
+CPU:
+Marca do Processador:
+Battery:
+Sistema da operação:
+Memória RAM
+Dimensões e Peso
+Capacidade
+Processador
+Altura
+Largura
+Profundidade
+Peso
+Características Gerais
+Resolução câmera frontal
+Resolução câmera traseira dupla
+Bateria (mAh)
+Câmera
+Memória interna
+Tecnologia
+Fabricante
+Marca
+Tipo de Chip
+Sistema Operacional
+Versão S.O.
+Sistema operacional
+Quantidade de chips
+Tipo de chip
+Recursos
+Resolução da câmera traseira
+Resolução da câmera frontal
+Recursos da câmera traseira
+Recursos da câmera frontal
+Sensores
+Peso aproximado
+Capacidade da bateria
+Operadora
+Garantia
+Dimensões do produto
+Tipo de Tela
+Tamanho do Display
+Tamanho da tela
+Resolução
+Resolução da tela
+Multichip
+Câmera Traseira
+Câmera Frontal
+Filmadora
+Sintonizador de TV
+NFC
+Tecnologia
+Processador
+Memória RAM
+Localização
+Memória Interna
+Banda
+Conexões
+Conectividade
+Recursos de chamada
+Cor
+Dimensões do produto - cm (AxLxP)
+Peso liq. aproximado do produto (Kg)
+Referência do Modelo
+ Marca
+ Fabricante
+ Marca
+ Sistema operacional
+ Dimensões do produto
+ Tamanho da tela
+ Resolução
+ Conexões
+ Cor
+ Ano
+ RAM
+ Número de processadores
+ Tamanho da memória externa
