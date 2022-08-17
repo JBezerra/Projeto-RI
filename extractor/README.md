@@ -8,7 +8,7 @@ Após isso você será capaz de rodar o script de estatísticas
 python statistics/index.py
 ```
 
-Que deverá devolver este outpu:
+Que deverá devolver este output:
 ```bash
 -- AMERICANAS --
 -----  Acurácia de 91.66666666666666%
