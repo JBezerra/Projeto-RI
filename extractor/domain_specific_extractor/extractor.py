@@ -1,31 +1,28 @@
 import re
-from codecs import open as open_using_codecs
-from bs4 import BeautifulSoup, Tag
-import urllib.request
-from helpers import load_keys
+from bs4 import Tag
+from domain_specific_extractor.helpers import load_keys, get_html
 
 HTML_DIRECTORIES = {
-  'SUBMARINO': '../data/submarino.html',
-  'AMERICANAS': '../data/americanas.html',
-  'MAGAZINELUIZA': '../data/magazineluiza.html',
-  'AMAZON': '../data/amazon.html',
-  'CASASBAHIA': '../data/casasbahia.html',
-  'EBAY': '../data/ebay.html',
-  'FASTSHOP': '../data/fastshop.html',
-  'WEBFONE': '../data/webfone.html',
-  'COLOMBO': '../data/colombo.html',
-  'GIRAFA': '../data/girafa.html',
+  'SUBMARINO': './data/submarino.html',
+  'AMERICANAS': './data/americanas.html',
+  'MAGAZINELUIZA': './data/magazineluiza.html',
+  'AMAZON': './data/amazon.html',
+  'CASASBAHIA': './data/casasbahia.html',
+  'EBAY': './data/ebay.html',
+  'FASTSHOP': './data/fastshop.html',
+  'WEBFONE': './data/webfone.html',
+  'COLOMBO': './data/colombo.html',
+  'GIRAFA': './data/girafa.html',
 }
 DESIRED_KEYS = []
 EXTRACTION = {}
+DESIRED_KEYS = load_keys()
 
-def get_html(directory):
-  file = open_using_codecs(directory, 'r', 'utf-8')
-  html = BeautifulSoup(file.read(), features="html.parser")
-  return html
 
-def extract():
-  html = get_html(HTML_DIRECTORIES['FASTSHOP'])
+
+def extract(html = None):
+  if not html:
+    html = get_html(HTML_DIRECTORIES['MAGAZINELUIZA'])
   for desired_key in DESIRED_KEYS:
     key_tags = html.find_all(text=desired_key)
 
@@ -47,7 +44,6 @@ def extract():
           sibling_text = re.sub('[^A-Za-z\u00C0-\u024F0-9 ,.]+[ ]+', '', sibling.text).strip()
           sibling_text = sibling_text.replace('\u200e', '')
           EXTRACTION[desired_key] = sibling_text
+  return EXTRACTION
 
-DESIRED_KEYS = load_keys()
-extract()
-print(EXTRACTION)
+# print(extract())

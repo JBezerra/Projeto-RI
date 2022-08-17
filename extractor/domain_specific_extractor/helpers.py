@@ -10,7 +10,7 @@ def add_space_start_end(string):
 
 def load_keys():
   lines = []
-  with open('../hot-words.txt','r') as file:
+  with open('./hot-words.txt','r') as file:
       for line in file:
         stripped_line = line.strip()
         if line[0] == ' ':
