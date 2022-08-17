@@ -1,14 +1,14 @@
-In order to run:
-# First import the right python path
+# Como rodar o projeto
+Primeiro, estando na raiz do extrator `/extractor` execute este comando:
 ```bash
 export PYTHONPATH=.
 ```
-# After that you are able to execute the file from the root:
+Após isso você será capaz de rodar o script de estatísticas
 ```bash
 python statistics/index.py
 ```
 
-Expected outup:
+Que deverá devolver este outpu:
 ```bash
 -- AMERICANAS --
 -----  Acurácia de 91.66666666666666%
