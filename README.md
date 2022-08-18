@@ -10,12 +10,14 @@ parte 3: https://www.loom.com/share/9036767bd4a6425faf0488fd0e432bd6
 
 slides:
 
-parte 1: https://www.canva.com/design/DAFJnfXe9jk/uMDtwhWZsqF_kpuvTTR2sQ/edit?utm_content=DAFJnfXe9jk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+parte 1: https://github.com/JBezerra/Projeto-RI/blob/main/crawler/Crawler.pdf
+(pdf na pasta crawler)
 
 parte 2: https://github.com/JBezerra/Projeto-RI/blob/main/classificador/classificador.pdf
 (pdf na pasta classificador)
 
-parte 3: https://www.canva.com/design/DAFJl8da3n4/f2DclWhy6KjLi9qK4VSpdg/edit?utm_content=DAFJl8da3n4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+parte 3: https://github.com/JBezerra/Projeto-RI/blob/main/extractor/Extrator.pdf
+(pdf na pasta extractor)
 
 
 
