@@ -1,4 +1,4 @@
-# Entregas
+# Crawler
 ## Crawler
 - Vídeo: https://drive.google.com/file/d/1y52I9STrkRbeY-B2_jX7pgQ0zRAZM8uq/view?usp=sharing
 - Slides: https://github.com/JBezerra/Projeto-RI/blob/main/crawler/Crawler.pdf
@@ -8,3 +8,13 @@
 ## Extrator
 - Vídeo: https://www.loom.com/share/9036767bd4a6425faf0488fd0e432bd6
 - Slides: https://github.com/JBezerra/Projeto-RI/blob/main/extractor/Extrator.pdf
+
+# Motor de Busca
+## Parte 01
+- Notebook: https://colab.research.google.com/drive/1DGCINHijHIyjO3kha-LqlbeVfLtP_1wa
+
+## Parte 02
+- Notebook: https://colab.research.google.com/drive/1dkXrm7C20clSQE22KDHWJFxfVwa5aJ1D?usp=sharing
+
+## Parte 3
+- Localizado no diretório `search-engine`.
