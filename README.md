@@ -10,6 +10,8 @@
 - Slides: https://github.com/JBezerra/Projeto-RI/blob/main/extractor/Extrator.pdf
 
 # Motor de Busca
+## Video
+- https://drive.google.com/file/d/1e-ZHC67-RHCrA2zENeyzBwMy5BB41aSF/view?usp=sharing
 ## Parte 01
 - Notebook: https://colab.research.google.com/drive/1DGCINHijHIyjO3kha-LqlbeVfLtP_1wa
 
